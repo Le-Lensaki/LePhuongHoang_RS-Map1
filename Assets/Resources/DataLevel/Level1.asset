@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7b906381c6bc164abd17b075d37896d, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  listStatusCatSpawn:
+  - nameCat: Cat_1
+    posCatSpawn: {x: 80, y: 0, z: 50}
+    catIsMove: 0
+  - nameCat: Cat_1
+    posCatSpawn: {x: 20, y: 0, z: 90}
+    catIsMove: 0
+  - nameCat: Cat_1
+    posCatSpawn: {x: 70, y: 0, z: 160}
+    catIsMove: 0
+  - nameCat: Cat_1
+    posCatSpawn: {x: 30, y: 0, z: 240}
+    catIsMove: 0
+  - nameCat: Cat_1
+    posCatSpawn: {x: 80, y: 0, z: 290}
+    catIsMove: 0
+  - nameCat: Cat_1
+    posCatSpawn: {x: 60, y: 0, z: 370}
+    catIsMove: 0
+  listStatusCarSpawn:
+  - nameCar: Car 1
+    posCarSpawn: {x: 99.5, y: 9.6, z: 85}
+  - nameCar: Car 1
+    posCarSpawn: {x: 11.3, y: 9.6, z: 142.4}
+  - nameCar: Car 2
+    posCarSpawn: {x: 16, y: 9.6, z: 302.4}
+  - nameCar: Car 2
+    posCarSpawn: {x: 103.2, y: 9.6, z: 329.9}
